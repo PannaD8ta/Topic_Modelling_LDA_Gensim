@@ -18,6 +18,9 @@ In the current digital powered world, the creation and consumption of data are c
 
 Topic modelling refers to the technique of the algorithm to discover huge volume of data generated in low dimension and to uncover hidden concepts, prominent features or latent variables of data, depending on the application of concept. Examples of real-world data includes social media feeds, product customer reviews, user feedbacks, tweets, e-mails, spams, and customer complaints. Initially - through the algebraic perspective, dimension reduction can be seen to decomponse the original matrix into factor matrix. Hence, the typical classification strategy can be described as probablistic models and non-probabilistic models [1].  
 
+## Use-Cases
+- 
+
 ## Dataset
 
 
