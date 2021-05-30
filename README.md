@@ -1,6 +1,6 @@
 # Topic Modelling with Gensim Package: Project Overview
 
-The model was created to determine the number of topic based on the news dataset.
+The model was created to determine the number of topic based a procurement dataset.
 - 
 -
 -
