@@ -1,14 +1,14 @@
 # Topic Modelling with Gensim Package: Project Overview
 
-The model was created to determine the number of topic based on a procurement dataset, which was obtained from [Kaggle](https://www.kaggle.com/nikhil1011/product-category-from-invoice/data)
+This project was created to study the number of relevant topic based on a procurement dataset.
 - 
 -
 -
 
-## Code and Resources Used
+## Resources Used
 - https://github.com/topics/topic-modeling
-- https://pypi.org/project/bertopic/
 - https://pyldavis.readthedocs.io/
+- https://spacy.io/usage/spacy-101
 
 ## Topic Modelling - Why?
  
@@ -19,10 +19,23 @@ In the current digital powered world, the creation and consumption of data are c
 Topic modelling refers to the technique of the algorithm to discover huge volume of data generated in low dimension and to uncover hidden concepts, prominent features or latent variables of data, depending on the application of concept. Examples of real-world data includes social media feeds, product customer reviews, user feedbacks, tweets, e-mails, spams, and customer complaints. Initially - through the algebraic perspective, dimension reduction can be seen to decomponse the original matrix into factor matrix. Hence, the typical classification strategy can be described as probablistic models and non-probabilistic models [1].  
 
 ## Use-Cases
-- 
+### 1. Customer Service
++ Tagging automation system of customer support tickets based on topic or the recognition of patterns, which results in the form of words or expressions that occured regularly.
++ Automatically dividing, prioritizing, and routing conversation to the most appropriate team.
++ Obtaining insights from customer support conversations
+
+### 2. Customer Feedback
++ Classifying and modelling topics from customer's feedback via review, social media posts, emails, chats and surveys and responding methodically and strategically that will make customers want to use a company's services or products again. 
 
 ## Dataset
+- [Kaggle](https://www.kaggle.com/nikhil1011/product-category-from-invoice/data)
 
+- Data points:-
+  - Category (categorical) 
+  - Inv_Id (integer)
+  - Vendor_Code (string)
+  - Item_Description (string)
+  - Product_Category (integer)
 
 ## Data Pre-processing
 
@@ -33,7 +46,6 @@ Topic modelling refers to the technique of the algorithm to discover huge volume
 ## Model Performance
 
 ## References:
-- [Top2Vec: Distributed Representations of Topics](https://arxiv.org/abs/2008.09470)
-- 
+
 
 
