@@ -157,6 +157,9 @@ First, we find the optimal number of topics for LDA based on the information bel
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
+## For more in-depth reading: Click on the link below to the Jupyter notebook. 
+- https://github.com/PannaD8ta/Topic_Modelling_LDA_Gensim/blob/main/Topic_Modeling_LDA_Gensim_1_7.ipynb
+
 ## References:
 - [ ] Blei et. al, *Latent Dirichlet Allocation*, University of California, 2003 [link](https://ai.stanford.edu/~ang/papers/nips01-lda.pdf)
 - [ ] Blei. D, *Probalistic Topic Models and User Behaviour*, University of Edinburgh 2017 [link](https://www.youtube.com/watch?v=FkckgwMHP2s)
