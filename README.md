@@ -144,7 +144,9 @@ First, we find the optimal number of topics for LDA based on the information bel
   <img src="https://github.com/PannaD8ta/Topic_Modelling_LDA_Gensim/blob/main/img/optimisedcoherenceplot.png" alt="code snippet" width="700" height="450"/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
-- Coherence Score was recorded at 0.5035499329043246, which was not significant in improvement. 
+- From the visualisation above, the first peak was recorded at 19 topics with a Coherence Score recorded at 0.5255
+- The most probable and suitable topics to be used will be between 19 to 24.
+- We will continue with 19 topics for the next visualisation 
 <br>
 <br>
 
