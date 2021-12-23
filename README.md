@@ -1,24 +1,10 @@
-# Topic Modelling with Gensim Package: Project Overview
+# Topic Modelling Analysis with latent Dirichlet allocation (LDA): Project Overview
 
-This project was created to study the number of relevant topic based on a procurement dataset.
-- 
--
--
+As a whole, topic modelling refers to the technique of the algorithm (Unsupervised machine learning method) to discover huge volume of data generated in low dimension and to uncover hidden concepts, prominent features or latent variables of data, depending on the application of concept. Examples of real-world data includes social media feeds, product customer reviews, user feedbacks, tweets, e-mails, spams, and customer complaints. Initially - through the algebraic perspective, dimension reduction can be seen to decomponse the original matrix into factor matrix. Hence, the typical classification strategy can be described as probablistic models and non-probabilistic models. 
 
-## Resources Used
-- https://github.com/topics/topic-modeling
-- https://pyldavis.readthedocs.io/
-- https://spacy.io/usage/spacy-101
+In this mini-project, I attempt to identify the topics based on a procurement dataset using a topic modelling technique (LDA). 
 
-## Topic Modelling - Why?
- 
-In the current digital powered world, the creation and consumption of data are constantly growing exponentially. In 2020, an average of 1.7MB of data is created by a person every second or 2.5 quintillion bytes per day. On average, 95% of businesses faces unstructured data as an issue for their digital operations. It can be difficult and costly to manage, run analysis and search insights with data coming in unconnected forms, sizes, shapes, and meaning. Topic modelling was developed as a text data mining tool to comprehend, organise, discover and connect the endless amount of text data. 
-
-## Topic Modelling - What?
-
-Topic modelling refers to the technique of the algorithm to discover huge volume of data generated in low dimension and to uncover hidden concepts, prominent features or latent variables of data, depending on the application of concept. Examples of real-world data includes social media feeds, product customer reviews, user feedbacks, tweets, e-mails, spams, and customer complaints. Initially - through the algebraic perspective, dimension reduction can be seen to decomponse the original matrix into factor matrix. Hence, the typical classification strategy can be described as probablistic models and non-probabilistic models [1].  
-
-## Use-Cases
+## Other Use-Cases
 ### 1. Customer Service
 + Tagging automation system of customer support tickets based on topic or the recognition of patterns, which results in the form of words or expressions that occured regularly.
 + Automatically dividing, prioritizing, and routing conversation to the most appropriate team.
@@ -26,6 +12,11 @@ Topic modelling refers to the technique of the algorithm to discover huge volume
 
 ### 2. Customer Feedback
 + Classifying and modelling topics from customer's feedback via review, social media posts, emails, chats and surveys and responding methodically and strategically that will make customers want to use a company's services or products again. 
+
+## Resources Used
+**Programming language:** Python 3.7
+
+**Packages:** pandas, numpy, spaCy, tqdm, os, re, operator, gensim, nltk, pyLDAvis, wordcloud, matplotlib.
 
 ## Dataset
 - [Kaggle](https://www.kaggle.com/nikhil1011/product-category-from-invoice/data)
@@ -39,6 +30,16 @@ Topic modelling refers to the technique of the algorithm to discover huge volume
 
 ## Data Pre-processing
 
+For our data and analysis, this stage will be divided into the following steps:
+
+- Remove quotation marks
+- Remove punctuations
+- Tokenization
+- Make Bigrams & Trigrams
+- Stop words removal: using NLTK
+- Remove words less than 2 characters
+- Lemmatization: using spaCy
+
 ## EDA
 
 ## Model Building
@@ -46,6 +47,9 @@ Topic modelling refers to the technique of the algorithm to discover huge volume
 ## Model Performance
 
 ## References:
-
+- https://github.com/topics/topic-modeling
+- https://pyldavis.readthedocs.io/
+- https://spacy.io/usage/spacy-101
+- https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21
 
 
